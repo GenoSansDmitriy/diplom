@@ -1,0 +1,62 @@
+.head-menu{
+    width: 100%;
+    height: 100px;
+    background-color: #da1a19;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-block img{
+    width: 90px;
+}
+
+svg{
+    transition: all ease 230ms;
+    cursor: pointer;
+}
+
+.menu-block{
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.top, .mid, .bot{
+    border-top: 5px solid whitesmoke;
+    width: 50px;
+    margin: 10px;
+    transition: all ease 230ms;
+}
+
+
+.menu{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background-color: #da1a19;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+
+
+
+
+@media(min-width: 630px){
+    svg{
+        width: 80px;
+        height: 80px;
+    }
+    .top, .mid, .bot{
+        width: 70px;
+        margin: 15px;
+        border-top: 7px solid whitesmoke;
+    }
+}
+
+
+
+
