@@ -9,7 +9,19 @@
 <body>
     
 <?php
-    require_once("./php/menu.php");
+    require_once("./php/menu.html");
+?>
+
+<main>
+    <img src="<?= $userimg ?>" alt="user" class="user-img">
+    <p align='center'>Добро подаловать, <br>
+        <b><?= $username ?></b>, <br>
+        готовы приступить к работе?
+    </p>
+</main>
+
+<?php
+    require_once("./php/footer.html");
 ?>
 
 </body>
