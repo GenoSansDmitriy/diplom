@@ -14,7 +14,7 @@
 
 <main>
     <img src="<?= $userimg ?>" alt="user" class="user-img">
-    <p align='center'>Добро подаловать, <br>
+    <p align='center'>Добро пожаловать, <br>
         <b><?= $username ?></b>, <br>
         готовы приступить к работе?
     </p>
